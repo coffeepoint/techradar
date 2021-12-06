@@ -1,6 +1,6 @@
 name,ring,quadrant,isNew,description
 C# .Net 6,Adopt,languages-and-frameworks,TRUE,LTS .Net Version
-AWS Babel Fish,Trial2,languages-and-frameworks,TRUE,Migration Path from MS SQL Server to PostgreSQL
+AWS Babel Fish,Trial,languages-and-frameworks,TRUE,Migration Path from MS SQL Server to PostgreSQL
 AWS Cognito,Adopt,languages-and-frameworks,TRUE,AWS Authentication
 AWS DocumentDB,Adopt,languages-and-frameworks,TRUE,AWS Mongo Clone
 AWS DynamoDB,Adopt,languages-and-frameworks,TRUE,AWS Simple NoSQL DB
@@ -14,7 +14,7 @@ AWS SNS/SQS,Adopt,languages-and-frameworks,TRUE,AWS Queues/Topics
 AWS Step Functions,Adopt,languages-and-frameworks,TRUE,AWS Serverless Workflows
 Cake,Adopt,Tools,TRUE,.Net Build Tool
 Cucumber,Adopt,languages-and-frameworks,TRUE,BDD Tool
-dotnet-monitor,Trial2,Tools,TRUE,.Net Runtime Monitoring
+dotnet-monitor,Trial,Tools,TRUE,.Net Runtime Monitoring
 Feature Flags,Adopt,Techniques,TRUE,
 Fluent Bit,Assess,Platforms,TRUE,Log forwarding from EKS pods to desired log sink
 Flux CD,Assess,Tools,TRUE,Deployment tool for kubernetes
