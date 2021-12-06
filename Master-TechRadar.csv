@@ -49,8 +49,8 @@ IIS,Hold,Platforms,TRUE,Replace with React + Linux Container .Net Services
 IBM MQ,Hold,Platforms,TRUE,Move to AWS SQS/SNS when possible
 MongoDB,Hold,Platforms,TRUE,Move to DocumentDB or DynamoDB
 T-SQL,Hold,languages-and-frameworks,TRUE,Move away from stored procedures
-BDD,Trail,Techniques,TRUE,Business Driven Development
-Mutation Testing,Trail,Techniques,TRUE,See Stryker
+BDD,Trial,Techniques,TRUE,Business Driven Development
+Mutation Testing,Trial,Techniques,TRUE,See Stryker
 Windows Server,Hold,Platforms,TRUE,Move to linux containers
 Cypess.Io,Adopt,Platforms,TRUE,Front End Testing
 EKS,Adopt,Platforms,TRUE,AWS Kubernetes
@@ -58,5 +58,5 @@ ECS Fargate,Adopt,Platforms,TRUE,Alternative to EKS
 Consul,Trial,Tools,TRUE,Feature Toggle Management
 FeatureHub.io,Trial,Tools,TRUE,Feature Toggle Management
 k6.io,Trial,Tools,TRUE,Performance Test Tool
-Bloom,Trail,Tools,TRUE,gRPC Testing Tool
+Bloom,Trial,Tools,TRUE,gRPC Testing Tool
 GraphQL,Adopt,languages-and-frameworks,TRUE,REST-API Alternative
