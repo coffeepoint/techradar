@@ -1,5 +1,6 @@
 name,ring,quadrant,isNew,description
 C# .Net 6,Adopt,languages-and-frameworks,TRUE,LTS .Net Version
+Flux CD,Trial,Tools,TRUE,Deployment tool for kubernetes
 AWS Babel Fish,Assess,languages-and-frameworks,TRUE,Migration Path from MS SQL Server to PostgreSQL
 AWS Cognito,Adopt,languages-and-frameworks,TRUE,AWS Authentication
 AWS DocumentDB,Adopt,languages-and-frameworks,TRUE,AWS Mongo Clone
@@ -17,7 +18,6 @@ Cucumber,Adopt,languages-and-frameworks,TRUE,BDD Tool
 dotnet-monitor,Assess,Tools,TRUE,.Net Runtime Monitoring
 Feature Flags,Adopt,Techniques,TRUE,
 Fluent Bit,Trial,Platforms,TRUE,Log forwarding from EKS pods to desired log sink
-Flux CD,Trial,Tools,TRUE,Deployment tool for kubernetes
 gRPC,Adopt,languages-and-frameworks,TRUE,"REST-API Alternative, for use cases this doesn't fit"
 IHSM SAM,Adopt,Platforms,TRUE,IHSM Standard Authentication
 Jaeger,Adopt,Tools,TRUE,Distributed tracing processing and visualization
