@@ -1,0 +1,60 @@
+name,ring,quadrant,isNew,description
+C# .Net 6,Adopt,languages-and-frameworks,TRUE,LTS .Net Version
+AWS Babel Fish,Trial,languages-and-frameworks,TRUE,Migration Path from MS SQL Server to PostgreSQL
+AWS Cognito,Adopt,languages-and-frameworks,TRUE,AWS Authentication
+AWS DocumentDB,Adopt,languages-and-frameworks,TRUE,AWS Mongo Clone
+AWS DynamoDB,Adopt,languages-and-frameworks,TRUE,AWS Simple NoSQL DB
+AWS Gateway,Adopt,languages-and-frameworks,TRUE,AWS HTTP Integration
+AWS Lambda,Adopt,languages-and-frameworks,TRUE,AWS Serverless Component
+AWS PostgreSQL RDS,Adopt,languages-and-frameworks,TRUE,AWS Hosted Postgres
+AWS Route53,Adopt,languages-and-frameworks,TRUE,AWS DNS
+AWS S3,Adopt,languages-and-frameworks,TRUE,AWS Simple Storage
+AWS Secrets Manager,Adopt,languages-and-frameworks,TRUE,AWS Parameter Store
+AWS SNS/SQS,Adopt,languages-and-frameworks,TRUE,AWS Queues/Topics
+AWS Step Functions,Adopt,languages-and-frameworks,TRUE,AWS Serverless Workflows
+Cake,Adopt,Tools,TRUE,.Net Build Tool
+Cucumber,Adopt,languages-and-frameworks,TRUE,BDD Tool
+dotnet-monitor,Trial,Tools,TRUE,.Net Runtime Monitoring
+Feature Flags,Adopt,Techniques,TRUE,
+Fluent Bit,Assess,Platforms,TRUE,Log forwarding from EKS pods to desired log sink
+Flux CD,Assess,Tools,TRUE,Deployment tool for kubernetes
+gRPC,Adopt,languages-and-frameworks,TRUE,"REST-API Alternative, for use cases this doesn't fit"
+IHSM SAM,Adopt,Platforms,TRUE,IHSM Standard Authentication
+Jaeger,Adopt,Tools,TRUE,Distributed tracing processing and visualization
+JMeter,Adopt,Tools,TRUE,Performance Test Tool
+Linux Instances,Adopt,Platforms,TRUE,Favour Linux over Windows
+Micro Front Ends,Adopt,Techniques,TRUE,
+NodeJS,Adopt,languages-and-frameworks,TRUE,"Serverside Javascript, consider for Lambdas"
+Open Telemetry,Adopt,languages-and-frameworks,TRUE,
+Ocelot,Adopt,languages-and-frameworks,TRUE,.Net Mirco Services
+Octopus,Adopt,Tools,TRUE,Deployment of services and tools to environments
+OData ,Adopt,languages-and-frameworks,TRUE,Enabling intergration with PowerBI/Tableau
+Postman,Adopt,Tools,TRUE,REST API Testing Tool
+Python 3,Adopt,languages-and-frameworks,TRUE,Consider for lambdas requiring data manipulation
+React,Adopt,languages-and-frameworks,TRUE,Preferred frontend framework for new projects
+Redis,Adopt,Platforms,TRUE,As Elasticache on AWS
+Resharper ,Adopt,Tools,TRUE,Refactoring Tool with Static Code Analysis
+Sonarqube,Adopt,Tools,TRUE,Static Code Analysis
+Stryker,Assess,Tools,TRUE,Mutation Testing
+Terraform,Adopt,Tools,TRUE,Favour over Cloudformation
+Typescript,Adopt,languages-and-frameworks,TRUE,Favour over Javascript
+Whitesource,Adopt,Tools,TRUE,3rd Party Vulnerbilities
+MS SQL Server,Hold,Platforms,TRUE,Replace where possible
+Angular,Hold,languages-and-frameworks,TRUE,Move to React where possible
+.Net Framework 4,Hold,languages-and-frameworks,TRUE,Move to .Net 6 when possible
+.Net Core 3.x,Hold,languages-and-frameworks,TRUE,Move to .Net 6 when possible
+RabbitMQ,Hold,Platforms,TRUE,Move to AWS SQS/SNS when possible
+IIS,Hold,Platforms,TRUE,Replace with React + Linux Container .Net Services
+IBM MQ,Hold,Platforms,TRUE,Move to AWS SQS/SNS when possible
+MongoDB,Hold,Platforms,TRUE,Move to DocumentDB or DynamoDB
+T-SQL,Hold,languages-and-frameworks,TRUE,Move away from stored procedures
+BDD,Assess,Techniques,TRUE,Business Driven Development
+Mutation Testing,Assess,Techniques,TRUE,See Stryker
+Windows Server,Hold,Platforms,TRUE,Move to linux containers
+Cypess.Io,Adopt,Platforms,TRUE,Front End Testing
+EKS,Adopt,Platforms,TRUE,AWS Kubernetes
+ECS Fargate,Adopt,Platforms,TRUE,Alternative to EKS
+Terraform,Adopt,Tools,TRUE,Cloud deployment
+Consul,Assess,Tools,TRUE,Feature Toggle Management
+FeatureHub.io,Assess,Tools,TRUE,Feature Toggle Management
+k6.io,Assess,Tools,TRUE,Performance Test Tool
